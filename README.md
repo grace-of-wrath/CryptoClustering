@@ -1,1 +1,3 @@
 # CryptoClustering
+I used the elbow curve algorithm to find the best value for k for a k-means model to cluster cryptocurrencies. I plotted the predicted clusters and appended the values to a dataframe, then used PCA to optimize the clusters. After using the PCA model on my data, I then went back and found the best value for k again so that I could create new clusters based on the PCA data. I followed the same process of plotting the clusters and appending the values. Finally I created a composite plot of both elbow curves and both scatter plots to create a visual comparison for better analysis. I concluded that with fewer features in the PCA data I was able to create more distinct clusters.
+
